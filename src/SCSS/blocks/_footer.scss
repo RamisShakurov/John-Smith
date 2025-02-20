@@ -1,0 +1,20 @@
+.footer {
+  padding: 35px 0 35px 250px;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    font-size: 15px;
+    line-height: 147%;
+    color: #c4c4c4;
+  }
+
+  &__list {
+    display: flex;
+    column-gap: 24px;
+  }
+}

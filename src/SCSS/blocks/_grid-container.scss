@@ -1,0 +1,57 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px, 360px));
+  grid-template-rows: repeat(4, 350px);
+  grid-template-areas:
+          "birds field field bridge"
+          "glass glass sand sand"
+          "people beach lake lake"
+          "sky sky ocean ocean";
+  width: 100%;
+
+  .grid-element-1 {
+    grid-area: birds;
+  }
+
+  .grid-element-2 {
+    grid-area: field;
+  }
+
+  .grid-element-3 {
+    grid-area: bridge;
+  }
+
+  .grid-element-4 {
+    grid-area: glass;
+  }
+
+  .grid-element-5 {
+    grid-area: sand;
+  }
+
+  .grid-element-6 {
+    grid-area: people;
+  }
+
+  .grid-element-7 {
+    grid-area: beach;
+  }
+
+  .grid-element-8 {
+    grid-area: lake;
+  }
+
+  .grid-element-9 {
+    grid-area: sky;
+  }
+
+  .grid-element-10 {
+    grid-area: ocean;
+  }
+
+}
+
+
+
+
+

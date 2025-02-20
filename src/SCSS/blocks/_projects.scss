@@ -1,0 +1,38 @@
+.projects {
+  width: 100%;
+  padding-block-start: 80px;
+
+  &__title {
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 116%;
+    color: #4d4d4d;
+    padding: 0 0 33px 250px;
+  }
+
+  &__figure {
+    position: relative;
+    height: 100%;
+  }
+
+  &__sign {
+    position: absolute;
+    bottom: 13px;
+    left: 20px;
+    z-index: 1;
+  }
+
+  &__name {
+    font-size: 17px;
+    line-height: 124%;
+    color: #fff
+  }
+
+  &__tag {
+    font-size: 9px;
+    line-height: 111%;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.49)
+  }
+}

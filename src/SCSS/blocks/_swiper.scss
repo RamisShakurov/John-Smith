@@ -1,0 +1,22 @@
+.swiper {
+  width: 100%;
+  height: 540px;
+}
+
+.swiper__image {
+  width: 1440px;
+  height: 540px;
+  display: block;
+}
+
+:root {
+  --swiper-pagination-color: #fff;
+
+  --swiper-pagination-bullet-size: 8px;
+  --swiper-pagination-bullet-width: 8px;
+  --swiper-pagination-bullet-height: 8px;
+  --swiper-pagination-bullet-inactive-color: #fff;
+  --swiper-pagination-bullet-inactive-opacity: 0.4;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-border-radius: none;
+}

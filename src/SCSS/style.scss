@@ -1,0 +1,14 @@
+@use './normalize';
+@use './global';
+@use './variables';
+@use './media';
+
+
+@use './blocks/swiper';
+@use './blocks/header';
+@use './blocks/container';
+@use './blocks/about';
+@use './blocks/grid-container';
+@use './blocks/projects';
+@use './blocks/contact';
+@use './blocks/footer';
